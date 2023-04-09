@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form tags</title>
+    <style>
+        form{
+            width: 25%;
+            margin:100px auto;
+             <--background-color: cyan; -->
+        }
+        fieldset{
+            background-color: blanchedalmond;
+            border-radius: 8px;
+        }
+        fieldset:hover{
+            box-shadow: 4px 4px 20px red;
+            
+        }
+        legend{
+            border: 2px solid sandybrown;
+            padding: 8px;
+            background-color: rgb(211, 200, 196);
+            border-radius: 0 10px 0 10px;
+        }
+        legend:hover{
+            background-color: blue;
+            color: white;
+        }
+        input{
+            display:block;
+            border-radius:8px;
+            padding: 5px;
+        }
+        button{
+            margin: 10px;
+            width: 40%;
+            padding: 8px;
+            border-radius: 10px;
+            background-color:orange;
+            color: aliceblue;
+        }
+        form button:hover{
+            background-color: brown;
+            color: rgb(231, 245, 245);
+            
+        }
+    </style>
+
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>signup</legend>
+        <label>username</label>
+        <input type ="text">
+        <label>email</label>
+        <input type="email">
+        <label>password</label>
+        <input type="password">
+        <label> confirm password</label>
+        <input type="password">
+        <button>submit</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
